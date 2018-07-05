@@ -1,2 +1,6 @@
 language: c++
-script: make
+script:
+   - make
+   - ./runtests
+   
+   

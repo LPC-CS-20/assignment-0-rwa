@@ -1,0 +1,8 @@
+#!/bin/sh
+
+./a.out
+
+if [ $? -eq 0 ]; then
+    echo 0;
+fi
+  
